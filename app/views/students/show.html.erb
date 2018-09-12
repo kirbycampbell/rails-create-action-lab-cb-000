@@ -1,4 +1,4 @@
 <h1><%= @student.to_s %></h1>
 <br>
 <p><%= link_to "All Students", students_path %></P>
-  <p><%= link_to "Add New Student", students_new_path %></P>
+  <p><%= link_to "Add New Student", controller: "students", action: "create" %></P>
